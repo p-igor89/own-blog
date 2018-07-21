@@ -1,0 +1,11 @@
+.about-skills
+    +title('h3').title_2 I have commercial#[br]experience
+    .about-skills__text.about__text
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque autem, dignissimos eligendi enim exercitationem hic inventore iure nam natus necessitatibus non officia optio placeat provident tempore tenetur voluptas voluptate?
+    each skillsCat, sectionName in skills
+        .about-skills__category
+            +title('h3').title_3= sectionName
+            ul.about-skills__list
+                each value, skill in skillsCat
+                    li.about-skills__item
+                        +circle-progress(value).js-skill= skill

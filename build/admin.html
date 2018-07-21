@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Admin-Panel</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="body">
+    <div id="page-admin"></div>
+    <div class="admin-wrapper">
+      <header class="admin-header">
+        <div class="admin-header__topline">
+          <div class="admin-header__left"><span class="admin-header__title">Administration Panel</span></div>
+          <div class="admin-header__right"><a href="./" class="admin-header__back">Return to the site</a></div>
+        </div>
+        <div class="admin-header__navigation">
+          <nav class="admin-navigation">
+            <ul class="admin-navigation__list">
+              <li class="admin-navigation__item"><a href="#about.html" class="admin-navigation__link">About me</a></li>
+              <li class="admin-navigation__item"><a href="#blog.html" class="admin-navigation__link">Blog</a></li>
+              <li class="admin-navigation__item"><a href="#works.html" class="admin-navigation__link">Notes</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="admin-tabs">
+        <section id="about" class="admin-tabs__item js-tab"><span class="admin-tabs__title admin-tabs__title_1">Page «About me»</span>
+          <form action="#" class="js-skills-save">
+            <div class="admin-tabs__section"><span class="admin-tabs__title admin-tabs__title_2">Frontend</span>
+              <table class="admin-skills">
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">HTML5</span></td>
+                  <td>
+                    <input data-category="Frontend" data-skill="HTML5" value="90" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">CSS3</span></td>
+                  <td>
+                    <input data-category="Frontend" data-skill="CSS3" value="90" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">ES6</span></td>
+                  <td>
+                    <input data-category="Frontend" data-skill="ES6" value="75" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">SQL</span></td>
+                  <td>
+                    <input data-category="Frontend" data-skill="SQL" value="90" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="admin-tabs__section"><span class="admin-tabs__title admin-tabs__title_2">Automation</span>
+              <table class="admin-skills">
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Selene</span></td>
+                  <td>
+                    <input data-category="Automation" data-skill="Selene" value="65" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Protractor</span></td>
+                  <td>
+                    <input data-category="Automation" data-skill="Protractor" value="60" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Allure</span></td>
+                  <td>
+                    <input data-category="Automation" data-skill="Allure" value="50" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Pytest</span></td>
+                  <td>
+                    <input data-category="Automation" data-skill="Pytest" value="99" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="admin-tabs__section"><span class="admin-tabs__title admin-tabs__title_2">WorkFlow</span>
+              <table class="admin-skills">
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Git</span></td>
+                  <td>
+                    <input data-category="WorkFlow" data-skill="Git" value="95" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Jenkins</span></td>
+                  <td>
+                    <input data-category="WorkFlow" data-skill="Jenkins" value="85" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Jira</span></td>
+                  <td>
+                    <input data-category="WorkFlow" data-skill="Jira" value="75" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+                <colgroup>
+                  <col class="admin-skills__name-col">
+                  <col class="admin-skills__percent-col">
+                </colgroup>
+                <tr>
+                  <td><span class="admin-skills__name">Jmeter</span></td>
+                  <td>
+                    <input data-category="WorkFlow" data-skill="Jmeter" value="75" class="admin-input-text admin-input-text_small admin-skills__input-text js-skill">%
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="block">
+              <input type="submit" value="Save" class="admin-button">
+            </div>
+          </form>
+        </section>
+        <section id="blog" class="admin-tabs__item js-tab"><span class="admin-tabs__title admin-tabs__title_1">Blog page</span><span class="admin-tabs__title admin-tabs__title_2">Add a note</span>
+          <form action="/admin/post" method="POST" class="js-post-add-form">
+            <input type="text" name="title" placeholder="Title" class="admin-input-text">
+            <input type="text" name="date" placeholder="Date" class="admin-input-text">
+            <textarea type="text" name="text" placeholder="Content" class="admin-input-text admin-input-text_textarea"></textarea>
+            <input type="submit" value="Add" class="admin-button">
+          </form>
+        </section>
+        <section id="works" class="admin-tabs__item js-tab"><span class="admin-tabs__title admin-tabs__title_1">My work page</span><span class="admin-tabs__title admin-tabs__title_2">Add work</span>
+          <form action="/admin/work" class="js-work-add-form">
+            <input type="text" name="name" placeholder="Name of project" class="admin-input-text">
+            <input type="text" name="description" placeholder="Description" class="admin-input-text">
+            <input type="text" name="link" placeholder="Link" class="admin-input-text">
+            <label class="admin-file">Download pictures
+              <svg class="admin-file__icon">
+                <use xlink:href="assets/img/sprite.svg#file"></use>
+              </svg>
+              <input type="file" name="image" value="" class="admin-file__input">
+            </label>
+            <div class="admin-tabs__section">
+              <input type="submit" value="Add" class="admin-button">
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+    <!-- - Connect js-->
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

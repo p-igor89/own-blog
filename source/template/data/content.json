@@ -1,0 +1,121 @@
+{
+  "skills": {
+    "Frontend": {
+      "HTML5": "90",
+      "CSS3": "90",
+      "ES6": "75",
+      "SQL": "90"
+    },
+    "Automation": {
+      "Selene": "65",
+      "Protractor": "60",
+      "Allure": "50",
+      "Pytest": "99"
+    },
+    "WorkFlow": {
+      "Git": "95",
+      "Jenkins": "85",
+      "Jira": "75",
+      "Jmeter": "75"
+    }
+  },
+  "menu": {
+    "Notes": "works.html",
+    "About me": "about.html",
+    "Blog": "blog.html"
+  },
+  "welcomeMenu": {
+    "Notes": "works.html",
+    "About me": "about.html",
+    "Blog": "blog.html"
+  },
+  "adminMenu": {
+    "About me": "#about.html",
+    "Blog": "#blog.html",
+    "Notes": "#works.html"
+  },
+  "posts": [
+    {
+      "hash": "hash",
+      "title": "First title for topic",
+      "date": "This is a data which show us when this article was created",
+      "text": "<p>This is a main decription which I want to wrie in this particular topic</p>"
+    },
+    {
+      "hash": "second",
+      "title": "Second title for topic",
+      "date": "This is a data which show us when this article was created",
+      "text": "<p>This is a second main decription which I want to wrie in this particular topic</p>"
+    }
+  ],
+  "social": {
+    "Вконтакте": {
+      "href": "https://www.facebook.com/ihor.peretiatko.1",
+      "icon": "vk"
+    },
+    "GitHub": {
+      "href": "https://github.com/p-igor89",
+      "icon": "github"
+    },
+    "Linkedin": {
+      "href": "https://www.linkedin.com/in/igorperetyatko/",
+      "icon": "in"
+    },
+    "Facebook": {
+      "href": "https://www.facebook.com/ihor.peretiatko.1",
+      "icon": "vk"
+    }
+  },
+  "address": {
+    "p_igor89": {
+      "href": "skype:p_igor89?chat",
+      "icon": "skype"
+    },
+    "gamma-beta@hotmail.com": {
+      "href": "mailto:gamma-beta@hotmail.com",
+      "icon": "envelope2"
+    },
+    "+3 8098 548 65 38": {
+      "href": "tel:+380985486538",
+      "icon": "phone2"
+    },
+    "Lviv": {
+      "href": "",
+      "icon": "map-marker"
+    }
+  },
+  "reviews": {
+    "dima": {
+      "img": "assets/img/dima.jpg",
+      "text": "This is a place for notes what Sergei whant to write",
+      "name": "Sergei Molchanov",
+      "place": "— lead Quartileone"
+    },
+    "zar": {
+      "img": "assets/img/zar.jpg",
+      "text": "Some test too",
+      "name": "Mykola Sobko",
+      "place": "— team member"
+    }
+  },
+  "works": [
+    {
+      "slug": "article one",
+      "name": "This is a note with how to set up the env for project Selene + pytest",
+      "description": "Selene, Pytest, Allure",
+      "link": "blog.html#hash",
+      "img": "assets/img/works/1.png"
+    },
+    {
+      "slug": "article second",
+      "name": "This is a note with how to set up the env for project Jenkins",
+      "description": "Jenkins",
+      "link": "blog.html#hash",
+      "img": "assets/img/works/2.png"
+    }
+  ],
+  "error": {
+    "code": "404",
+    "message": "Page not found"
+  }
+}

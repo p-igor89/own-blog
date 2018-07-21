@@ -1,0 +1,56 @@
+extends ../../layouts/main
+
+block title
+  title Portfolio
+
+block main
+  #page-welcome
+  .welcome
+    .welcome__main
+      .welcome__flip#js-flipper
+        .welcome__hello
+          .hello-card
+            .hello-card__main
+              .hello-card__author
+                +author-card('Peretiatko Ihor', 'Personal site', 'welcome')
+              .hello-card__social
+                +social(social, 'welcome').social
+            .hello-card__footer
+              nav.hello-card__nav
+                ul.hello-card__list
+                  each href, item in welcomeMenu
+                    li.hello-card__item
+                      a.hello-card__link(href=href)= item
+        .welcome__auth
+          .hello-card.hello-card_auth
+            form.hello-card__form.js-authform(action='/login' method='POST')
+              .hello-card__main
+                +title('span').title_auth.hello-card__header Log in
+                label.hello-card__label-icon Log in
+                  input(type='text' name='login' required='required' placeholder='Log in').hello-card__input
+                  .hello-card__icon-wrapper
+                    +iconsvg('login')(class='hello-card__icon hello-card__icon_login')
+                label.hello-card__label-icon Password
+                  input(type='password' name='password' required='required' placeholder='Password').hello-card__input
+                  .hello-card__icon-wrapper
+                    +iconsvg('password')(class='hello-card__icon hello-card__icon_password')
+                label.hello-card__label-checkbox I'm human
+                  input(type='checkbox' name='ishuman').hello-card__checkbox
+                  +iconsvg('check')(class='hello-card__checkbox-check')
+                span.hello-card__question Are you definitely not a robot?
+                label.hello-card__label-radio
+                  input(type='radio' name='norobot' value='yes').hello-card__radio
+                  span.hello-card__label-radio-text Yes
+                label.hello-card__label-radio
+                  input(type='radio' name='norobot' value='no').hello-card__radio
+                  span.hello-card__label-radio-text Not sure
+              .hello-card__footer
+                .hello-card__nav
+                  ul.hello-card__list
+                    li.hello-card__item
+                      a.hello-card__link(href='#welcome') Home page
+                    li.hello-card__item
+                      input.hello-card__link(type='submit' value='Login')
+
+
+    .welcome__footer #[span.welcome__footer-author © Peretiatko Ihor] About Automation testing and not only about it | 2018
