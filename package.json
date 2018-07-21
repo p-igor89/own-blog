@@ -1,18 +1,15 @@
 {
-  "name": "portfolio",
+  "name": "Blog",
   "version": "1.0.0",
-  "description": "My personal portfolio website",
-  "author": "Andrey [Sandrig] Savelev <sandrig.dev@gmail.com>",
+  "description": "My personal blog",
+  "author": "Peretiatko Ihor <gamma-beta@hotmail.com>",
   "private": true,
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandrig/portfolio.git"
+    "url": "https://github.com/p-igor89"
   },
-  "bugs": {
-    "url": "https://github.com/sandrig/portfolio/issues"
-  },
-  "homepage": "https://github.com/sandrig/portfolio/#readme",
+  "homepage": "https://github.com/p-igor89/own-blog/#readme",
   "scripts": {
     "postinstall": "bower install",
     "start": "node ./app/app.js"
