@@ -1,15 +1,15 @@
 {
-  "name": "portfolio",
+  "name": "Blog",
   "version": "1.0.0",
-  "description": "My personal portfolio website",
+  "description": "My personal blog",
   "authors": [
-    "Andrey [Sandrig] Savelev <sandrig.dev@gmail.com>"
+    "Peretiatko Ihor <gamma-beta@hotmail.com>"
   ],
   "license": "ISC",
   "keywords": [
-    "portfolio"
+    "blog"
   ],
-  "homepage": "https://github.com/sandrig/portfolio",
+  "homepage": "https://github.com/p-igor89",
   "moduleType": [],
   "ignore": [
     "**/.*",
